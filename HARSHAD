@@ -1,0 +1,10 @@
+1.Podman (build/systemd)
+2.stratis
+3.LV reduce
+4.Selinux (fcontext,seaudit,semanage port,restorecon)
+5.Network configuration
+6.SGID,SUID (in numeric)
+7.Autofs
+
+7.Ask 07: Change the primary command prompt for the root user to display the hostname, username, and current working directory information in that order. Update the peruser initialization file for permanence.
+  echo "PS1=\"[\\h@\\u:\\w]\> \"" >> /root/.bashrc
