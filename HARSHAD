@@ -8,3 +8,6 @@
 
 7.Ask 07: Change the primary command prompt for the root user to display the hostname, username, and current working directory information in that order. Update the peruser initialization file for permanence.
   echo "PS1=\"[\\h@\\u:\\w]\> \"" >> /root/.bashrc
+
+
+echo "/stratis/stratispool/stratisfs /stratisvolume xfs defaults,x-systemd.requires=stratisd.service 0 0" >> /etc/fstab
